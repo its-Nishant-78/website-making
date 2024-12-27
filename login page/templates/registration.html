@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            registeration
+        </title>
+
+    </head>
+    <body>
+        <h2 class="word"></h2>
+        <form action="/register" method="POST">
+            <div class="msg">{{msg}}</div>
+            <input id="username" name="username" type="text" placeholder="Enter your username" class="textbox"/></br>
+            <input id="password" name="password" type="text" placeholder="Enter your password" class="textbox"/></br>
+            <br>
+            <input id="email" name="email" type="text" placeholder="Enter your email" class="textbox"/></br><br>
+            <input type="submit" value="Sign up" class="btn"/><br><br>
+        </form>
+        <p class="bottom">Already have an account? <a class="bottom" href="/login">Sign in here</a></p>
+    </body>
+</html>

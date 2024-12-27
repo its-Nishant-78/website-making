@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <style>
+            body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        }
+
+        .border {
+            background-color: azure;
+            padding: 20%;
+            border-radius: 10%;
+            box-shadow: 0px 4px 8px rgba((red), green, blue, alpha);
+            text-align: center;
+            width: 300px;
+        }
+
+        .header h1 {
+            margin: 0;
+            padding-bottom: 20px;
+            color: greenyellow;
+            background-color: royalblue;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            background-color: chocolate;
+            color: aliceblue;
+            border: none;
+            padding: 10x 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: transparent;
+        }
+
+        .bottom a {
+            color: darkgray;
+            text-decoration: wavy;
+        }
+
+
+      
+
+
+
+
+
+
+
+        </style>
+    </head>
+<div align="center" class="border">
+    <div class="header">
+    <h1 class="word">login</h1>
+    </div>
+    <h2 class="word">
+    </h2>
+    <form action="/login" method="POST">
+    <div class="msg">{{msg}}</div>
+    <input id="username" name="username" type="text" placeholder="Enter your username" class="textbox"/> </br></br>
+    <input id="password" name="password" type="password" placeholder="Enter your password" class="textbox"/> </br></br> 
+    <input type="submit" value="Sign In" class="btn"/></form></br></br>
+    </form>
+    <p class="bottom"> Don't have an account?</p>
+    <a class="bottom" href="/register">Sign up here</a></p>
+    </div>
+    </div>
+     
+</html>
